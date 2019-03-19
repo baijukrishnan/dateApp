@@ -1,0 +1,8 @@
+<p *ngFor="let value of values">
+  {{value.id}},{{value.name}}
+  
+</p>
+<table class="table table-bordered table-hover">
+  <tr><td>ID</td><td>Name</td></tr>
+  <tr *ngFor="let value of values"><td>{{value.id}}</td><td>{{value.name}}</td></tr>
+    </table>
